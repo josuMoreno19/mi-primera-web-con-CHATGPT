@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+}
+
+header h1{
+    color:green;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 15px;
+    padding: 0;
+}
+
+.imagen-logo{
+    position: absolute;
+    top:10px;
+    right:20px;
+}
+
+.imagen-principal{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.imagen-golazo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+}
+
+h2 {
+    color: #333;
+}
+
+.servicio {
+    margin-bottom: 40px;
+}
+
+.servicio h3 {
+    color: #007bff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.redes-sociales a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+.redes-sociales a:hover {
+    background-color: #0056b3;
+}
+
+a i.fa-solid.fa-futbol {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
